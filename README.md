@@ -368,7 +368,7 @@ COMET_URL=https://comet.elfhosted.com/
 ...
 ```
 
-## Development
+## Developments
 
 1. Clone the project and set it as the current directory
    ```
