@@ -23,7 +23,7 @@ export class Settings {
     .DETERMINISTIC_ADDON_ID
     ? process.env.DETERMINISTIC_ADDON_ID === 'true'
     : false;
-  public static readonly API_KEY = process.env.API_KEY ?? '';
+  public static readonly API_KEY = process.env.API_KEY ?? 'abc123';
   public static readonly SHOW_DIE = process.env.SHOW_DIE
     ? process.env.SHOW_DIE === 'true'
     : false;
